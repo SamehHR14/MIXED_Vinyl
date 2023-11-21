@@ -16,10 +16,9 @@ class VinlMix
     #[ORM\Column]
     private int $votes = 0;
 
-    private function _construct()
+    private function __construct()
     {
-        $this->createAt= new \DateTimeImmutable();
-
+        $this->createdAt = new \DateTimeImmutable();
     }
 
 
