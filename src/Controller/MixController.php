@@ -1,6 +1,5 @@
-
 <?php
-
+namespace App\Controller;
 
 use App\Entity\VinylMix;
 use Doctrine\ORM\EntityManagerInterface;
